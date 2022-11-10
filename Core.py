@@ -1,4 +1,5 @@
 from apscheduler.schedulers.background import BackgroundScheduler
+import state_manager
 import time
 import json
 import datetime
@@ -36,12 +37,12 @@ def set_stage(current_stage):
 def set_state():
     print('executed state manager')
 
-@sched.scheduled_job('interval', seconds=5, id='req')
+@sched.scheduled_job('cron', hour='0-23', minute='*/10', id='req')
 def req():
     print(datetime.datetime.now())
     current_stage = receive_stage ()
     set_stage(current_stage)
-    time.sleep(1)
+    time.sleep(5)
     set_state()
     
 if __name__ == "__main__" : 
