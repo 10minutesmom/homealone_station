@@ -1,891 +1,3009 @@
 {
   "JSON_NAME": "stage",
   "timetable": {
-    "00": {
+    "mon": {
       "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "00": {
+          "stage": "no schedule"
+        },
 
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "Safety Margin"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "Need to Ready"
+        }
+      },
+      "01": {
+        "00": {
+          "stage": "Need to Ready"
+        },
+
+        "10": {
+          "stage": "Need to Ready"
+        },
+        "20": {
+          "stage": "move"
+        },
+
+        "30": {
+          "stage": "move"
+        },
+
+        "40": {
+          "stage": "move"
+        },
+
+        "50": {
+          "stage": "pause"
+        }
+      },
+      "02": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "03": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "04": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "05": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "06": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "07": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "08": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "09": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "11": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "12": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "13": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "14": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "15": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "16": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "17": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "18": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "19": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "Safety Margin"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "10": {
+          "stage": "pause"
+        },
 
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "20": {
+          "stage": "no schedule"
+        },
 
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "Need to Ready"
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "21": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "22": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "23": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
       }
     },
-    "01": {
+    "tue": {
       "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "Need to Ready"
-      },
+        "00": {
+          "stage": "no schedule"
+        },
 
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "Safety Margin"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "Need to Ready"
+        }
+      },
+      "01": {
+        "00": {
+          "stage": "Need to Ready"
+        },
+
+        "10": {
+          "stage": "Need to Ready"
+        },
+        "20": {
+          "stage": "move"
+        },
+
+        "30": {
+          "stage": "move"
+        },
+
+        "40": {
+          "stage": "move"
+        },
+
+        "50": {
+          "stage": "pause"
+        }
+      },
+      "02": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "03": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "04": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "05": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "06": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "07": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "08": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "09": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "Need to Ready"
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "11": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "12": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "13": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "14": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "15": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "16": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "17": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "18": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "19": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
       },
       "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "move"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "move"
-      },
+        "10": {
+          "stage": "pause"
+        },
 
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "move"
-      },
+        "20": {
+          "stage": "no schedule"
+        },
 
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "21": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "22": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "23": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
       }
     },
-    "02": {
+    "wed": {
       "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
+        "00": {
+          "stage": "no schedule"
+        },
 
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "Safety Margin"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "Need to Ready"
+        }
+      },
+      "01": {
+        "00": {
+          "stage": "Need to Ready"
+        },
+
+        "10": {
+          "stage": "Need to Ready"
+        },
+        "20": {
+          "stage": "move"
+        },
+
+        "30": {
+          "stage": "move"
+        },
+
+        "40": {
+          "stage": "move"
+        },
+
+        "50": {
+          "stage": "pause"
+        }
+      },
+      "02": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "03": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "04": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "05": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "06": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "07": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "08": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "09": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "11": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "12": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "13": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "14": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "15": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "16": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "17": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "18": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "19": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "10": {
+          "stage": "pause"
+        },
 
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "20": {
+          "stage": "no schedule"
+        },
 
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "21": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "22": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "23": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
       }
     },
-    "03": {
+    "thu": {
       "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
+        "00": {
+          "stage": "no schedule"
+        },
 
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "Safety Margin"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "Need to Ready"
+        }
+      },
+      "01": {
+        "00": {
+          "stage": "Need to Ready"
+        },
+
+        "10": {
+          "stage": "Need to Ready"
+        },
+        "20": {
+          "stage": "move"
+        },
+
+        "30": {
+          "stage": "move"
+        },
+
+        "40": {
+          "stage": "move"
+        },
+
+        "50": {
+          "stage": "pause"
+        }
+      },
+      "02": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "03": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "04": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "05": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "06": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "07": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "08": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "09": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "11": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "12": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "13": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "14": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "15": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "16": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "17": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "18": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "19": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "10": {
+          "stage": "pause"
+        },
 
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
+        "20": {
+          "stage": "no schedule"
+        },
 
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "21": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "22": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "23": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
       }
     },
-    "04": {
+    "fri": {
       "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
+        "00": {
+          "stage": "no schedule"
+        },
 
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "Safety Margin"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "Need to Ready"
+        }
+      },
+      "01": {
+        "00": {
+          "stage": "Need to Ready"
+        },
+
+        "10": {
+          "stage": "Need to Ready"
+        },
+        "20": {
+          "stage": "move"
+        },
+
+        "30": {
+          "stage": "move"
+        },
+
+        "40": {
+          "stage": "move"
+        },
+
+        "50": {
+          "stage": "pause"
+        }
+      },
+      "02": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "03": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "04": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "05": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "06": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "07": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "08": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "09": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
+        "00": {
+          "stage": "pause"
+        },
 
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "11": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "12": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "13": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "14": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "15": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "16": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "17": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "18": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "19": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
       "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "05": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "06": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "07": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "08": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "09": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "10": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "11": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "12": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "13": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "14": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "15": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "16": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "17": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "18": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "19": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "20": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "21": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "22": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      }
-    },
-    "23": {
-      "00": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "10": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "pause"
-      },
-
-      "20": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "30": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "40": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
-      },
-
-      "50": {
-        "Title": "title",
-        "Location": "HOME",
-        "stage": "no schedule"
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "21": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "no schedule"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "22": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
+      },
+      "23": {
+        "00": {
+          "stage": "pause"
+        },
+
+        "10": {
+          "stage": "pause"
+        },
+
+        "20": {
+          "stage": "no schedule"
+        },
+
+        "30": {
+          "stage": "no schedule"
+        },
+
+        "40": {
+          "stage": "no schedule"
+        },
+
+        "50": {
+          "stage": "no schedule"
+        }
       }
     }
   }
