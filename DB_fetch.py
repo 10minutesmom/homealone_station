@@ -12,7 +12,7 @@ def get_is_kid_home():
     is_kid_home = c.fetchone()[0]
     conn.close()
 
-    return is_kid_home
+    return int(is_kid_home)
 
 def get_where_is_kid():
     conn = sqlite3.connect("stationdb.sqlite3", isolation_level=None)
@@ -63,6 +63,28 @@ def get_lazy_cnt() :
     
     c = conn.cursor()
     c.execute("SELECT lazy_cnt FROM kid where id=1")
+    
+    lazy_cnt = c.fetchone()[0]
+    conn.close()
+
+    return int(lazy_cnt)
+
+def get_alert_cnt() :
+    conn = sqlite3.connect("stationdb.sqlite3", isolation_level=None)
+    
+    c = conn.cursor()
+    c.execute("SELECT alert_cnt FROM kid where id=1")
+    
+    lazy_cnt = c.fetchone()[0]
+    conn.close()
+
+    return int(lazy_cnt)
+
+def get_stage_rep():
+    conn = sqlite3.connect("stationdb.sqlite3", isolation_level=None)
+    
+    c = conn.cursor()
+    c.execute("SELECT stage_rep FROM kid where id=1")
     
     lazy_cnt = c.fetchone()[0]
     conn.close()

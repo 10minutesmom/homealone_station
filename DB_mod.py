@@ -2,6 +2,7 @@ import time
 import json
 import datetime
 import sqlite3
+import os
 
 def set_is_kid_home(is_kid_home):
     conn = sqlite3.connect("stationdb.sqlite3", isolation_level=None)
@@ -52,5 +53,21 @@ def set_lazy_cnt(lazy_cnt):
     c.execute("UPDATE kid set lazy_cnt=%s where id = 1" %str(lazy_cnt))
     conn.close()
     
+def set_alert_cnt(alert_cnt):
+    conn = sqlite3.connect("stationdb.sqlite3", isolation_level=None)
+    
+    c = conn.cursor()
+    
+    c.execute("UPDATE kid set alert_cnt=%s where id = 1" %str(alert_cnt))
+    conn.close()
+
+def set_stage_rep(stage_rep):
+    conn = sqlite3.connect("stationdb.sqlite3", isolation_level=None)
+    
+    c = conn.cursor()
+    
+    c.execute("UPDATE kid set stage_rep=%s where id = 1" %str(stage_rep))
+    conn.close()
+    
 if __name__ == "__main__" : 
-    set_is_kid_home(1)
+    set_is_kid_home(0)

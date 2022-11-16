@@ -9,5 +9,8 @@ def send_direction():
 def play_sound():
     print('sending signal to web server to play alarm')
 
+def pause_sound():
+    print('sending signal to web server to pause alarm')
+
 
 

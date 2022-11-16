@@ -4,9 +4,10 @@ import time
 import json
 import datetime
 import sqlite3
-import reset_DB
+import DB_reset
 import DB_fetch
 import DB_mod
+import remote_control
 
 sched = BackgroundScheduler()
 
@@ -42,15 +43,18 @@ def req():
     print("current_stage = %s, and next_stage = %s"%(current_stage,next_stage))
     if (current_stage == next_stage):
         print('curr == next')
+        state_manager.state_manager()
     else:
         print('curr != next')
+        DB_reset.reset_alert_cnt()
+        DB_reset.reset_lazy_cnt()
+        DB_reset.reset_stage_rep()
+        remote_control.pause_sound()
         DB_mod.set_current_stage(next_stage)
-    
-    state_manager.state_manager()
+        state_manager.state_manager()
         
-    
 if __name__ == "__main__" : 
-    reset_DB.reset()
+    DB_reset.reset_all()
     sched.start()
     while True:
         time.sleep(1)   
