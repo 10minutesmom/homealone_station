@@ -85,15 +85,14 @@ def state_manager():
     current_stage = DB_fetch.get_current_stage()
 
     print( '''is_kid_home : %d\n
-          cur_where_is_kid : %s\n
-          cur_is_kid_ready : %s\n
-          DB_fetch.get_stage_rep : %d'''
+cur_where_is_kid : %s\n
+cur_is_kid_ready : %s\n
+DB_fetch.get_stage_rep : %d\n'''
           %(DB_fetch.get_is_kid_home(),DB_fetch.get_where_is_kid(),DB_fetch.get_is_kid_ready(),DB_fetch.get_stage_rep()))
     
     if (current_stage == stage_dic['Not_in_home']):
         print('current_stage == %s' %stage_dic['Not_in_home'])
         DB_mod.set_current_state(state_dic['Hibernation_state'])
-        state_reaction()
         
     elif (current_stage == stage_dic['No_schedule']):
         print('current_stage == %s' %stage_dic['No_schedule'])
@@ -116,10 +115,10 @@ def state_manager():
         DB_mod.set_stage_rep(DB_fetch.get_stage_rep()+1)
         
     elif (current_stage == stage_dic['Safety_margin']):
-        print('current_stage == %s' %stage_dic['Safety_margin'])
         print('current stage is : ',stage_dic['Safety_margin'])
         DB_mod.set_current_state(state_dic['Hibernation_state'])
-        remote_control.play_sound()
+        if(DB_fetch.get_stage_rep()==0):
+            remote_control.play_sound()
     
     elif (current_stage == stage_dic['Need_to_ready']):
         print('current_stage == %s' %stage_dic['Need_to_ready'])
@@ -129,20 +128,21 @@ def state_manager():
             remote_control.send_direction() #update is_kid_home, where_is_kid,is_kid_ready
             remote_control.play_sound()
             
-            if(DB_fetch.get_is_kid_ready == is_kid_ready_dic['laying']):
+            if(DB_fetch.get_is_kid_ready() == is_kid_ready_dic['laying']):
                 remote_control.play_sound()
                 DB_mod.set_current_state(state_dic['alert_state'])
                 
             else:
                 remote_control.pause_sound()
                 DB_mod.set_current_state(state_dic['alert_state'])
+            return 0
 
-        if(DB_fetch.get_is_kid_ready()== is_kid_ready_dic['laying'] or is_kid_ready_dic['sitting']):
+        if(DB_fetch.get_is_kid_ready() == is_kid_ready_dic['laying'] or is_kid_ready_dic['sitting']):
             remote_control.play_sound()
-            state_dic['alert_state']
+            DB_mod.set_current_state(state_dic['alert_state'])
         else:
             remote_control.pause_sound()
-            state_dic['alert_state']
+            DB_mod.set_current_state(state_dic['alert_state'])
             
         state_reaction()   
         DB_mod.set_stage_rep(DB_fetch.get_stage_rep()+1)

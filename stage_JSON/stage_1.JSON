@@ -53,19 +53,19 @@
       },
       "02": {
         "00": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "10": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "20": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "30": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "40": {
@@ -86,69 +86,69 @@
         },
 
         "20": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         },
 
         "30": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         },
 
         "40": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         },
 
         "50": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         }
       },
       "04": {
         "00": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "10": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "20": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "30": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "40": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "50": {
-          "stage": "No_schedule"
+          "stage": "Move"
         }
       },
       "05": {
         "00": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "10": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "20": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "30": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "40": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         },
 
         "50": {
-          "stage": "No_schedule"
+          "stage": "Not_in_home"
         }
       },
       "06": {
@@ -169,70 +169,70 @@
         },
 
         "40": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         },
 
         "50": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         }
       },
       "07": {
         "00": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         },
 
         "10": {
-          "stage": "No_schedule"
+          "stage": "Safety_margin"
         },
 
         "20": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "30": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "40": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         },
 
         "50": {
-          "stage": "No_schedule"
+          "stage": "Need_to_ready"
         }
       },
       "08": {
         "00": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "10": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "20": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "30": {
-          "stage": "No_schedule"
+          "stage": "Move"
         },
 
         "40": {
-          "stage": "No_schedule"
+          "stage": "Pause"
         },
 
         "50": {
-          "stage": "No_schedule"
+          "stage": "Pause"
         }
       },
       "09": {
         "00": {
-          "stage": "No_schedule"
+          "stage": "Pause"
         },
 
         "10": {
-          "stage": "No_schedule"
+          "stage": "Pause"
         },
 
         "20": {
