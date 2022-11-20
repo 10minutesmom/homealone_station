@@ -1,5 +1,6 @@
 import time
 import json
+import pandas as pd
 import datetime
 import sqlite3
 
@@ -14,18 +15,24 @@ def fetch_schedule () :
     conn.close()
     
     f = open(dir)
-    data = json.load(f)
+    schedule_JSON = json.load(f)
     f.close()
 
-    return data
+    return schedule_JSON
 
 def convert_schedule_to_stage(data):
     pass
 
 if __name__ == "__main__" :   
     print(datetime.datetime.now())
+    
+    dir = './scheduleData.json'
+    f = open(dir)
+    
     schedule_JSON = fetch_schedule()
-    convert_schedule_to_stage(schedule_JSON)
+    timetable = schedule_JSON['timetable']
+    timetable_df = pd.DataFrame.from_dict(timetable)
+    print(timetable_df['mon'])
     
 
 
